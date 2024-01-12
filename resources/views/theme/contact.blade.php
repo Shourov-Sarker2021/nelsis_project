@@ -11,7 +11,7 @@
                     </div>
                 </div>
                 <div class="col-lg-8">
-                    <img src="img/add.jpg" alt="">
+                    <img src="{{asset('theme/img/add.jpg')}}" alt="">
                 </div>
             </div>
         </div>

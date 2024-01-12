@@ -14,7 +14,7 @@
                     </div>
                 </div>
                 <div class="col-lg-8">
-                    <img src="img/add.jpg" alt="">
+                    <img src="{{asset('theme/img/add.jpg')}}" alt="">
                 </div>
             </div>
         </div>
@@ -38,7 +38,7 @@
                     <tbody>
                         <tr>
                             <td class="product-col">
-                                <img src="img/product/product-1.jpg" alt="">
+                                <img src="{{asset('theme/img/product/product-1.jpg')}}" alt="">
                                 <div class="p-title">
                                     <h5>Blue Dotted Shirt</h5>
                                 </div>
@@ -134,14 +134,14 @@
   
 
     <!-- Js Plugins -->
-    <script src="js/jquery-3.3.1.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/jquery.magnific-popup.min.js"></script>
-    <script src="js/jquery.slicknav.js"></script>
-    <script src="js/owl.carousel.min.js"></script>
-    <script src="js/jquery.nice-select.min.js"></script>
-    <script src="js/mixitup.min.js"></script>
-    <script src="js/main.js"></script>
+    <script src="{{asset('theme/js/jquery-3.3.1.min.js')}}"></script>
+    <script src="{{asset('theme/js/bootstrap.min.js')}}"></script>
+    <script src="{{asset('theme/js/jquery.magnific-popup.min.js')}}"></script>
+    <script src="{{asset('theme/js/jquery.slicknav.js')}}"></script>
+    <script src="{{asset('theme/js/owl.carousel.min.js')}}"></script>
+    <script src="{{asset('theme/js/jquery.nice-select.min.js')}}"></script>
+    <script src="{{asset('theme/js/mixitup.min.js')}}"></script>
+    <script src="{{asset('theme/js/main.js')}}"></script>
 </body>
 
 </html>

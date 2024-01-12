@@ -14,7 +14,7 @@
                     </div>
                 </div>
                 <div class="col-lg-8">
-                    <img src="img/add.jpg" alt="">
+                    <img src="{{asset('theme/img/add.jpg')}}" alt="">
                 </div>
             </div>
         </div>
@@ -33,13 +33,13 @@
                     <div class="product-slider owl-carousel">
                         <div class="product-img">
                             <figure>
-                                <img src="img/product/product-1.jpg" alt="">
+                                <img src="{{asset('theme/img/product/product-1.jpg')}}" alt="">
                                 <div class="p-status">new</div>
                             </figure>
                         </div>
                         <div class="product-img">
                             <figure>
-                                <img src="img/product/product-1.jpg" alt="">
+                                <img src="{{asset('theme/img/product/product-1.jpg')}}" alt="">
                                 <div class="p-status">new</div>
                             </figure>
                         </div>
@@ -98,7 +98,7 @@
                 <div class="col-lg-3 col-sm-6">
                     <div class="single-product-item">
                         <figure>
-                            <a href="#"><img src="img/products/img-1.jpg" alt=""></a>
+                            <a href="#"><img src="{{asset('theme/img/products/img-1.jpg')}}" alt=""></a>
                             <div class="p-status">new</div>
                         </figure>
                         <div class="product-text">
@@ -110,7 +110,7 @@
                 <div class="col-lg-3 col-sm-6">
                     <div class="single-product-item">
                         <figure>
-                            <a href="#"><img src="img/products/img-2.jpg" alt=""></a>
+                            <a href="#"><img src="{{asset('theme/img/products/img-2.jpg')}}" alt=""></a>
                             <div class="p-status sale">sale</div>
                         </figure>
                         <div class="product-text">
@@ -122,7 +122,7 @@
                 <div class="col-lg-3 col-sm-6">
                     <div class="single-product-item">
                         <figure>
-                            <a href="#"><img src="img/products/img-3.jpg" alt=""></a>
+                            <a href="#"><img src="{{asset('theme/img/products/img-3.jpg')}}" alt=""></a>
                             <div class="p-status">new</div>
                         </figure>
                         <div class="product-text">
@@ -134,7 +134,7 @@
                 <div class="col-lg-3 col-sm-6">
                     <div class="single-product-item">
                         <figure>
-                            <a href="#"><img src="img/products/img-4.jpg" alt=""></a>
+                            <a href="#"><img src="{{asset('theme/img/products/img-4.jpg')}}" alt=""></a>
                             <div class="p-status popular">popular</div>
                         </figure>
                         <div class="product-text">
@@ -151,14 +151,14 @@
   
 
     <!-- Js Plugins -->
-    <script src="js/jquery-3.3.1.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/jquery.magnific-popup.min.js"></script>
-    <script src="js/jquery.slicknav.js"></script>
-    <script src="js/owl.carousel.min.js"></script>
-    <script src="js/jquery.nice-select.min.js"></script>
-    <script src="js/mixitup.min.js"></script>
-    <script src="js/main.js"></script>
+    <script src="{{asset('theme/js/jquery-3.3.1.min.js')}}"></script>
+    <script src="{{asset('theme/js/bootstrap.min.js')}}"></script>
+    <script src="{{asset('theme/js/jquery.magnific-popup.min.js')}}"></script>
+    <script src="{{asset('theme/js/jquery.slicknav.js')}}"></script>
+    <script src="{{asset('theme/js/owl.carousel.min.js')}}"></script>
+    <script src="{{asset('theme/js/jquery.nice-select.min.js')}}"></script>
+    <script src="{{asset('theme/js/mixitup.min.js')}}"></script>
+    <script src="{{asset('theme/js/main.js')}}"></script>
 </body>
 
 </html>

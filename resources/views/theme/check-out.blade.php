@@ -11,7 +11,7 @@
                     </div>
                 </div>
                 <div class="col-lg-8">
-                    <img src="img/add.jpg" alt="">
+                    <img src="{{asset('theme/img/add.jpg')}}" alt="">
                 </div>
             </div>
         </div>
@@ -129,8 +129,8 @@
                         <div class="payment-method">
                             <h3>Payment</h3>
                             <ul>
-                                <li>Paypal <img src="img/paypal.jpg" alt=""></li>
-                                <li>Credit / Debit card <img src="img/mastercard.jpg" alt=""></li>
+                                <li>Paypal <img src="{{asset('theme/img/paypal.jpg')}}" alt=""></li>
+                                <li>Credit / Debit card <img src="{{asset('theme/img/mastercard.jpg')}}" alt=""></li>
                                 <li>
                                     <label for="two">Pay when you get the package</label>
                                     <input type="radio" id="two">
@@ -148,14 +148,14 @@
   
 
     <!-- Js Plugins -->
-    <script src="js/jquery-3.3.1.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/jquery.magnific-popup.min.js"></script>
-    <script src="js/jquery.slicknav.js"></script>
-    <script src="js/owl.carousel.min.js"></script>
-    <script src="js/jquery.nice-select.min.js"></script>
-    <script src="js/mixitup.min.js"></script>
-    <script src="js/main.js"></script>
+    <script src="{{asset('theme/js/jquery-3.3.1.min.js')}}"></script>
+    <script src="{{asset('theme/js/bootstrap.min.js')}}"></script>
+    <script src="{{asset('theme/js/jquery.magnific-popup.min.js')}}"></script>
+    <script src="{{asset('theme/js/jquery.slicknav.js')}}"></script>
+    <script src="{{asset('theme/js/owl.carousel.min.js')}}"></script>
+    <script src="{{asset('theme/js/jquery.nice-select.min.js')}}"></script>
+    <script src="{{asset('theme/js/mixitup.min.js')}}"></script>
+    <script src="{{asset('theme/js/main.js')}}"></script>
 </body>
 
 </html>
