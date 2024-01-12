@@ -14,7 +14,7 @@
                     </div>
                 </div>
                 <div class="col-lg-8">
-                    <img src="img/add.jpg" alt="">
+                    <img src="{{asset('theme/img/add.jpg')}}" alt="">
                 </div>
             </div>
         </div>
@@ -52,10 +52,10 @@
                 <div class="col-lg-6 col-md-6">
                     <div class="single-product-item">
                         <figure>
-                            <img src="img/products/img-9.jpg" alt="">
+                            <img src="{{asset('theme/img/products/img-9.jpg')}}" alt="">
                             <div class="p-status">new</div>
                             <div class="hover-icon">
-                                <a href="img/products/img-9.jpg" class="pop-up"><img src="img/icons/zoom-plus.png"
+                                <a href="{{asset('theme/img/products/img-9.jpg')}}" class="pop-up"><img src="{{asset('theme/img/icons/zoom-plus.png')}}"
                                         alt=""></a>
                             </div>
                         </figure>
@@ -72,7 +72,7 @@
                         <div class="col-lg-6 col-md-6">
                             <div class="single-product-item">
                                 <figure>
-                                    <img src="img/products/img-2.jpg" alt="">
+                                    <img src="{{asset('theme/img/products/img-2.jpg')}}" alt="">
                                     <div class="p-status sale">sale</div>
                                 </figure>
                                 <div class="product-text">
@@ -86,11 +86,11 @@
                         <div class="col-lg-6 col-md-6">
                             <div class="single-product-item">
                                 <figure>
-                                    <img src="img/products/img-3.jpg" alt="">
+                                    <img src="{{asset('theme/img/products/img-3.jpg')}}" alt="">
                                     <div class="p-status">new</div>
                                     <div class="hover-icon">
-                                        <a href="img/products/img-3.jpg" class="pop-up"><img
-                                                src="img/icons/zoom-plus.png" alt=""></a>
+                                        <a href="{{asset('theme/img/products/img-3.jpg')}}" class="pop-up"><img
+                                                src="{{asset('theme/img/icons/zoom-plus.png')}}" alt=""></a>
                                     </div>
                                 </figure>
                                 <div class="product-text">
@@ -104,7 +104,7 @@
                         <div class="col-lg-6 col-md-6">
                             <div class="single-product-item">
                                 <figure>
-                                    <img src="img/products/img-6.jpg" alt="">
+                                    <img src="{{asset('theme/img/products/img-6.jpg')}}" alt="">
                                     <div class="p-status sale">sale</div>
                                 </figure>
                                 <div class="product-text">
@@ -118,10 +118,10 @@
                         <div class="col-lg-6 col-md-6">
                             <div class="single-product-item">
                                 <figure>
-                                    <img src="img/products/img-1.jpg" alt="">
+                                    <img src="{{asset('theme/img/products/img-1.jpg')}}" alt="">
                                     <div class="hover-icon">
-                                        <a href="img/products/img-1.jpg" class="pop-up"><img
-                                                src="img/icons/zoom-plus.png" alt=""></a>
+                                        <a href="{{asset('theme/img/products/img-1.jpg')}}" class="pop-up"><img
+                                                src="{{asset('theme/img/icons/zoom-plus.png')}}" alt=""></a>
                                     </div>
                                 </figure>
                                 <div class="product-text">
@@ -305,15 +305,15 @@
 
  
 
-    <!-- Js Plugins -->
-    <script src="js/jquery-3.3.1.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/jquery.magnific-popup.min.js"></script>
-    <script src="js/jquery.slicknav.js"></script>
-    <script src="js/owl.carousel.min.js"></script>
-    <script src="js/jquery.nice-select.min.js"></script>
-    <script src="js/mixitup.min.js"></script>
-    <script src="js/main.js"></script>
+    <!-- Js Plugins -->"></script>
+    <script src="{{asset('theme/js/bootstrap.min.js')}}"></script>
+    <script src="{{asset}}"></script>
+    <script src="{{asset('theme/js/jquery.slicknav.js')}}"></script>
+    <script src="{{asset('theme/js/owl.carousel.min.js')}}"></script>
+    <script src="{{asset('')}}"></script>
+    <script src="{{asset('js/mixitup.min.js')]}"></script>
+    <script src="></script>
+    
 </body>
 
 </html>
